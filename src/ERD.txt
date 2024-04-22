@@ -1,0 +1,19 @@
+User
+----
+ID (Primary Key)
+Email (Unique)
+Password
+...
+
+Blog
+----
+ID (Primary Key)
+Title
+Content
+ReadingTime
+AuthorID (Foreign Key referencing User.ID)
+...
+
+Relationships
+-------------
+One User can have many Blogs (One-to-Many relationship from User to Blog)
