@@ -76,6 +76,7 @@ export async function deleteBlogById(id) {
     }
 
     // await blog.delete();
+    logger.info('Blog deleted successfully');
     return { message: 'Blog deleted successfully' };
 };
 

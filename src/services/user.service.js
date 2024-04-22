@@ -13,14 +13,16 @@ export async function registerUser(userData) {
 };
 
 export async function loginUser({ email, password }) {
-    const user = await User.findOne({ email: req.body.email });
+    const user = await User.findOne({ email: email });
     if (user && await bcrypt.compare(password, user.password)) {
-        const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
+        const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
         logger.info('User logged in successfully');
+        return { message: 'User logged in', token };
         res.json ({ token });
     } else {
-        logger.warn('Invalid credentials');
-        res.status(401).json({ message: 'Invalid credentials' });
+        logger.warn('Invalid credentials'); // log warning message if credentials are invalid 
+        return { message: 'Invalid credentials' }; // return error message if credentials are invalid
+        // res.status(401).json({ message: 'Invalid credentials' });
     }
 };
 

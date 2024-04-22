@@ -23,7 +23,7 @@ export async function login(req, res) {
 
 export async function getProfile(req, res) {
     try {
-        const user = await getUserById(req.user.id);
+        const user = await getUserById(req.user._id);
         res.json(user);
     } catch (err) {
         res.status(500).json({ message: err.message });
