@@ -6,6 +6,10 @@ const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017/BLOGGING_A
 const PORT = process.env.PORT || 3500;
 
 connect(MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
 })
     .then(() => {
         console.log('Connected to MongoDB successfully!');
