@@ -450,3 +450,44 @@
 {"level":"error"}
 {"level":"error"}
 {"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","path":"email","type":"unique","value":"samopzz@gmail.com"},"value":"samopzz@gmail.com"},"first_name":{"kind":"required","message":"Path `first_name` is required.","name":"ValidatorError","path":"first_name","properties":{"message":"Path `first_name` is required.","path":"first_name","type":"required"}},"last_name":{"kind":"required","message":"Path `last_name` is required.","name":"ValidatorError","path":"last_name","properties":{"message":"Path `last_name` is required.","path":"last_name","type":"required"}}},"level":"error","message":"User validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required., email: Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidationError"}
+{"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","path":"email","type":"unique","value":"samopzz@gmail.com"},"value":"samopzz@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidationError"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Blog not found"}
+{"level":"error","message":"Blog not found"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Blog not found"}
+{"level":"error","message":"Blog not found"}
+{"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzc@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzc@gmail.com`","path":"email","type":"unique","value":"samopzc@gmail.com"},"value":"samopzc@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzc@gmail.com`","name":"ValidationError"}

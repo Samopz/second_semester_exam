@@ -27,8 +27,9 @@ export async function loginUser({ email, password }) {
 };
 
 export async function getUserById(userId) {
-    const user = await User.findById(userId);
+    const user = await User.findById(userId).select('-password');
     if (!user) {
+        logger.error('User not found');
         throw new Error('User not found');
     }
     return user;

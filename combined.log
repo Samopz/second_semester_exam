@@ -970,3 +970,139 @@
 {"level":"info","message":"Blog deleted successfully"}
 {"level":"info","message":"Reading time calculated"}
 {"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"User created successfully"}
+{"level":"info","message":"User created successfully"}
+{"level":"warn","message":"Invalid credentials"}
+{"level":"warn","message":"Invalid credentials"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"User logged in successfully"}
+{"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","path":"email","type":"unique","value":"samopzz@gmail.com"},"value":"samopzz@gmail.com"},"first_name":{"kind":"required","message":"Path `first_name` is required.","name":"ValidatorError","path":"first_name","properties":{"message":"Path `first_name` is required.","path":"first_name","type":"required"}},"last_name":{"kind":"required","message":"Path `last_name` is required.","name":"ValidatorError","path":"last_name","properties":{"message":"Path `last_name` is required.","path":"last_name","type":"required"}}},"level":"error","message":"User validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required., email: Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidationError"}
+{"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzz@gmail.com`","path":"email","type":"unique","value":"samopzz@gmail.com"},"value":"samopzz@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzz@gmail.com`","name":"ValidationError"}
+{"level":"info","message":"User created successfully"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"warn","message":"Invalid credentials"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"warn","message":"Invalid credentials"}
+{"level":"info","message":"User created successfully"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Blog created successfully"}
+{"level":"error"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error"}
+{"level":"info","message":"Blog created successfully"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Blog updated successfully"}
+{"level":"info","message":"Blog updated successfully"}
+{"level":"info","message":"Blog updated successfully"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error","message":"Blog not found"}
+{"level":"info","message":"Blog updated successfully"}
+{"level":"info","message":"Blog updated successfully"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error","message":"Blog not found"}
+{"level":"error"}
+{"level":"info","message":"Blog created successfully"}
+{"level":"error"}
+{"level":"info","message":"Blog created successfully"}
+{"level":"info","message":"Blog deleted successfully"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"error","message":"Blog not found"}
+{"level":"error","message":"Blog not found"}
+{"level":"info","message":"Blog found"}
+{"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzc@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzc@gmail.com`","path":"email","type":"unique","value":"samopzc@gmail.com"},"value":"samopzc@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzc@gmail.com`","name":"ValidationError"}
+{"level":"info","message":"User created successfully"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"warn","message":"Invalid credentials"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"info","message":"User logged in successfully"}
+{"level":"info","message":"Reading time calculated"}
+{"level":"info","message":"Reading time calculated"}

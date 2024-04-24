@@ -1,10 +1,11 @@
 import Blog from '../database/schema/blog.schema.js';
-import {logger} from '../utils/logger.js';
+import { logger } from '../utils/logger.js';
 
-export async function createBlog({ title, content, author }) {
-    const readingTime = calculateReadingTime(content);
-    const blog = new Blog({ title, content, author, readingTime });
+export async function createBlog({ title, content, author, state, body, tags, description, timestamp, read_count }) {
+    const reading_time = calculateReadingTime(content);
+    const blog = new Blog({ title, author, reading_time, state, body, tags, description, timestamp, read_count });
     await blog.save();
+    logger.info('Blog created successfully');
     return blog;
 
     function calculateReadingTime(content) {
@@ -23,6 +24,7 @@ export async function createBlog({ title, content, author }) {
 export async function getAllBlogs({ page = 1, limit = 20, state, search }) {
     const skip = (page - 1) * limit;
     let query = {};
+
     if (state) {
         query.state = state;
     }
@@ -30,14 +32,9 @@ export async function getAllBlogs({ page = 1, limit = 20, state, search }) {
     if (search) {
         query.$or = [
             { title: { $regex: search, $options: 'i' } },
-            { author: { $regex: search, $options: 'i' } },
             { tags: { $regex: search, $options: 'i' } },
             { description: { $regex: search, $options: 'i' } },
             { body: { $regex: search, $options: 'i' } },
-            { timestamp: { $regex: search, $options: 'i' } },
-            { state: { $regex: search, $options: 'i' } },
-            { read_count: { $regex: search, $options: 'i' } },
-            { reading_time: { $regex: search, $options: 'i' } },
         ];
     }
 
@@ -48,17 +45,21 @@ export async function getAllBlogs({ page = 1, limit = 20, state, search }) {
 export async function getBlogById(id) {
     const blog = await Blog.findById(id).populate('author');
     if (!blog) {
+        logger.error('Blog not found');
         throw new Error('Blog not found');
     }
 
     blog.read_count += 1;
     await blog.save();
+
+    logger.info('Blog found');
     return blog;
 };
 
 export async function updateBlogById(id, { title, content }) {
     const blog = await Blog.findByIdAndUpdate(id);
     if (!blog) {
+        logger.error('Blog not found');
         throw new Error('Blog not found');
     }
 
@@ -66,12 +67,14 @@ export async function updateBlogById(id, { title, content }) {
     blog.content = content;
     await blog.save();
 
+    logger.info('Blog updated successfully');
     return blog;
 };
 
 export async function deleteBlogById(id) {
     const blog = await Blog.findByIdAndDelete(id);
     if (!blog) {
+        logger.error('Blog not found');
         throw new Error('Blog not found');
     }
 
