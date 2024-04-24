@@ -8,8 +8,6 @@ const PORT = process.env.PORT || 3500;
 connect(MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
 })
     .then(() => {
         console.log('Connected to MongoDB successfully!');
