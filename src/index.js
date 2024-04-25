@@ -5,7 +5,7 @@ import userRoutes from './routes/user.route.js';
 
 dotenv.config();
 
-const app = express();
+const app = express(); //
 app.use(express.json());
 
 app.use('/blogs', blogRoutes);

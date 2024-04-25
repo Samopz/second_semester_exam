@@ -2,7 +2,7 @@ import app from "./src/index.js";
 import { connect } from "./src/database/connection.js";
 import winston from "winston";
 
-const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017/BLOGGING_API";
+const MONGO_URL = process.env.MONGO_URL;
 const PORT = process.env.PORT || 3500;
 
 function connectWithRetry() {

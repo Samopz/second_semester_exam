@@ -1,4 +1,4 @@
-import Blog from '../database/schema/blog.schema.js';
+import Blog from '../models/blog.schema.js';
 import { logger } from '../utils/logger.js';
 
 export async function createBlog({ title, content, author, state, body, tags, description, timestamp, read_count }) {

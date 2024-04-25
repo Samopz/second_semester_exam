@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import User from '../database/schema/user.schema.js';
+import User from '../models/user.schema.js';
 import { logger } from '../utils/logger.js';
 
 export async function registerUser(userData) {
