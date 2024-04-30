@@ -1,31 +1,36 @@
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import User from '../models/user.schema.js';
 import { logger } from '../utils/logger.js';
-import { registerUser, loginUser, getUserById } from '../controllers/user.controller.js';
 
-export async function register(req, res) {
-    try {
-        const result = await registerUser(req.body);
-        res.status(201).json(result);
-    } catch (err) {
-        logger.error(err);
-        res.status(500).json({ message: 'Error creating user' });
+export async function registerUser(userData) {
+    const { password, ...otherData } = userData;
+    const hashedPassword = await bcrypt.hash(password, 10);
+    const user = new User({ ...otherData, password: hashedPassword });
+    await user.save();
+    logger.info("User created successfully");
+    return { message: 'User created' };
+};
+
+export async function loginUser({ email, password }) {
+    const user = await User.findOne({ email: email });
+    if (user && await bcrypt.compare(password, user.password)) {
+        const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
+        logger.info('User logged in successfully');
+        return { message: 'User logged in', token };
+        res.json ({ token });
+    } else {
+        logger.warn('Invalid credentials'); // log warning message if credentials are invalid 
+        return { message: 'Invalid credentials' }; // return error message if credentials are invalid
+        // res.status(401).json({ message: 'Invalid credentials' });
     }
 };
 
-export async function login(req, res) {
-    try {
-        const result = await loginUser(req.body);
-        res.json(result);
-    } catch (err) {
-        logger.error(err);
-        res.status(401).json({ message: err.message });
+export async function getUserById(userId) {
+    const user = await User.findById(userId).select('-password');
+    if (!user) {
+        logger.error('User not found');
+        throw new Error('User not found');
     }
-};
-
-export async function getProfile(req, res) {
-    try {
-        const user = await getUserById(req.user._id);
-        res.json(user);
-    } catch (err) {
-        res.status(500).json({ message: err.message });
-    }
+    return user;
 };

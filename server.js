@@ -3,7 +3,7 @@ import { connect } from "./src/database/connection.js";
 import winston from "winston";
 
 const MONGO_URL = process.env.MONGO_URL;
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT;
 
 function connectWithRetry() {
     return connect(MONGO_URL, {

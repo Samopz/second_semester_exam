@@ -491,3 +491,10 @@
 {"level":"error","message":"Blog not found"}
 {"level":"error","message":"Blog not found"}
 {"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzc@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzc@gmail.com`","path":"email","type":"unique","value":"samopzc@gmail.com"},"value":"samopzc@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzc@gmail.com`","name":"ValidationError"}
+{"level":"error"}
+{"level":"error","message":"Blog not found"}
+{"level":"error","message":"Blog not found"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
