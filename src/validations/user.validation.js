@@ -1,26 +1,22 @@
-import Joi from "joi";
+import joi from "joi";
 
-const registerSchema = Joi.object({
-  email: Joi.string().email().required(),
-  first_name: Joi.string().required(),
-  last_name: Joi.string().required(),
-  password: Joi.string().min(6).required(),
+const registerValidator = joi.object({
+  email: joi.string().email().required(),
+  first_name: joi.string().required(),
+  last_name: joi.string().required(),
+  password: joi.string().min(9).max(12).required(),
   // other fields...
 });
 
-const loginSchema = Joi.object({
-  email: Joi.string().email().required(),
-  password: Joi.string().min(6).required(),
-});
+const validateUserMiddleWare = async (req, res, next) => {
+  const userPayload = req.body;
+  try {
+    await registerValidator.validateAsync(userPayload);
+    next();
+  } catch (error) {
+    console.log(error);
+    return res.status(406).send(error.details[0].message);
+  }
+};
 
-export function validateUser(user) {
-  const { error } = registerSchema.validate(user);
-    if (error) throw new Error(error.details[0].message);
-}
-
-export function validateLogin(user) {
-  const { error } = loginSchema.validate(user);
-  if (error) throw new Error(error.details[0].message);
-}
-
-export { registerSchema, loginSchema };
+export default validateUserMiddleWare;

@@ -1,10 +1,11 @@
 import express from 'express';
 import { create, getAll, getById, update, deleteById } from '../controllers/blog.controller.js';
+import blogValidation from '../validations/blog.validation.js'
 
 const router = express.Router();
 
 // Define API Endpoints for Blog
-router.post('/', create);
+router.post('/', blogValidation, create);
 router.get('/', getAll);
 router.get('/:id', getById);
 router.put('/:id', update);

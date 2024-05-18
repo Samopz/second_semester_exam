@@ -1,12 +1,9 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import User from "../models/user.schema.js";
-import { registerSchema, loginSchema } from "../validations/user.validation.js";
 import { logger } from "../utils/logger.js";
 
 export async function registerUser(userData) {
-  const { error } = registerSchema.validate(userData);
-  if (error) throw new Error(error.details[0].message);
   const { password, ...otherData } = userData;
   const hashedPassword = await bcrypt.hash(password, 10);
   const user = new User({ ...otherData, password: hashedPassword });
@@ -16,11 +13,6 @@ export async function registerUser(userData) {
 }
 
 export async function loginUser({ email, password }) {
-  const { error } = loginSchema.validate({ email, password });
-  if (error) {
-    logger.error(error.details[0].message);
-    throw new Error(error.details[0].message);
-  }
   const user = await User.findOne({ email: email });
   if (user && (await bcrypt.compare(password, user.password))) {
     const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, {
