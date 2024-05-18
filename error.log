@@ -536,3 +536,9 @@
 {"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","path":"email","type":"unique","value":"samopzcrr4@gmail.com"},"value":"samopzcrr4@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidationError"}
 {"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","path":"email","type":"unique","value":"samopzcrr4@gmail.com"},"value":"samopzcrr4@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidationError"}
 {"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","path":"email","type":"unique","value":"samopzcrr4@gmail.com"},"value":"samopzcrr4@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidationError"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
