@@ -16,7 +16,7 @@ function connectWithRetry() {
 
         .catch(err => {
             console.error('Err connecting to MongoDB', err);
-            console.log('Retrying to connect to MongoDB in 5 seconds');
+            console.log('Retrying to connect to MongoDB in 10 seconds');
             setTimeout(connectWithRetry, 5000);
         });
 }
@@ -24,5 +24,5 @@ function connectWithRetry() {
 connectWithRetry();
 
 app.listen(PORT, () =>
-    winston.info(`Server is running on port ${PORT}`)
+    new winston.transports.Console(`Server is running on port ${PORT}`)
 );
