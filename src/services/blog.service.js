@@ -41,7 +41,7 @@ export async function createBlog({
   }
 }
 
-export async function getAllBlogs({ page = 1, limit = 10, state, search }) {
+export async function getAllBlogs({ page = 1, limit = 10, state, search }) { 
   const skip = (page - 1) * limit;
   let query = {};
 

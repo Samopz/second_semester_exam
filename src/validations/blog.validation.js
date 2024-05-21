@@ -13,8 +13,8 @@ const validateBlogMiddleWare = async (req, res, next) => {
 
 const blogValidator = joi.object({
   title: joi.string().min(5).max(255).required(),
-  description: joi.string().min(5).max(255).optional(),
-  body: joi.string().min(5).max(2000).optional(),
+  description: joi.string().min(5).max(100).optional(),
+  body: joi.string().min(5).max(20000).optional(),
   tags: joi.array().items(joi.string()).min(1).max(5).required(),
   author: joi.string().required(),
   timestamp: joi.date().default(Date.now()),

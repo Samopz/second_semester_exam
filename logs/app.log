@@ -1,0 +1,108 @@
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":33.706,"status":404,"timestamp":"Mon May 20 2024 11:14:03 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1.938,"status":404,"timestamp":"Mon May 20 2024 11:14:03 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":99.13,"status":406,"timestamp":"Mon May 20 2024 11:14:03 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":30.503,"status":404,"timestamp":"Mon May 20 2024 11:15:14 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1.65,"status":404,"timestamp":"Mon May 20 2024 11:15:14 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":83.546,"status":406,"timestamp":"Mon May 20 2024 11:15:14 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":32.084,"status":404,"timestamp":"Mon May 20 2024 11:15:23 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1.819,"status":404,"timestamp":"Mon May 20 2024 11:15:23 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":82.059,"status":406,"timestamp":"Mon May 20 2024 11:15:23 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":32.667,"status":404,"timestamp":"Mon May 20 2024 11:16:29 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2.123,"status":404,"timestamp":"Mon May 20 2024 11:16:29 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":95.778,"status":406,"timestamp":"Mon May 20 2024 11:16:29 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":33.217,"status":404,"timestamp":"Mon May 20 2024 11:16:43 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2.834,"status":404,"timestamp":"Mon May 20 2024 11:16:43 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":139.069,"status":406,"timestamp":"Mon May 20 2024 11:16:43 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":27.772,"status":404,"timestamp":"Mon May 20 2024 11:17:11 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":3.784,"status":404,"timestamp":"Mon May 20 2024 11:17:11 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":91.11,"status":406,"timestamp":"Mon May 20 2024 11:17:11 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":33.864,"status":404,"timestamp":"Mon May 20 2024 11:18:25 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2.345,"status":404,"timestamp":"Mon May 20 2024 11:18:25 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":90.685,"status":406,"timestamp":"Mon May 20 2024 11:18:25 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":29.023,"status":404,"timestamp":"Mon May 20 2024 11:25:14 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":4.245,"status":404,"timestamp":"Mon May 20 2024 11:25:14 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":90.648,"status":406,"timestamp":"Mon May 20 2024 11:25:14 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"contentLength":"4893","level":"info","message":"HTTP Access Log","method":"GET","responseTime":25.326,"status":200,"timestamp":"Mon May 20 2024 11:27:52 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"contentLength":"4893","level":"info","message":"HTTP Access Log","method":"GET","responseTime":9.115,"status":200,"timestamp":"Mon May 20 2024 11:27:54 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"contentLength":"3042","level":"info","message":"HTTP Access Log","method":"GET","responseTime":36.653,"status":200,"timestamp":"Mon May 20 2024 11:28:07 GMT+0100 (British Summer Time)","url":"/blogs?page=2"}
+{"contentLength":"4893","level":"info","message":"HTTP Access Log","method":"GET","responseTime":6.913,"status":200,"timestamp":"Mon May 20 2024 11:28:41 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"contentLength":"43","level":"info","message":"HTTP Access Log","method":"POST","responseTime":26.416,"status":403,"timestamp":"Mon May 20 2024 11:29:27 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":32.517,"status":404,"timestamp":"Mon May 20 2024 11:30:50 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2.899,"status":404,"timestamp":"Mon May 20 2024 11:30:50 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":82.32,"status":406,"timestamp":"Mon May 20 2024 11:30:50 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":53.465,"status":404,"timestamp":"Mon May 20 2024 11:31:12 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":3.785,"status":404,"timestamp":"Mon May 20 2024 11:31:12 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":174.712,"status":406,"timestamp":"Mon May 20 2024 11:31:12 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":59.681,"status":404,"timestamp":"Mon May 20 2024 11:31:24 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":13.352,"status":404,"timestamp":"Mon May 20 2024 11:31:24 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":133.382,"status":406,"timestamp":"Mon May 20 2024 11:31:24 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":55.619,"status":404,"timestamp":"Mon May 20 2024 11:31:36 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":3.688,"status":404,"timestamp":"Mon May 20 2024 11:31:36 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":168.21,"status":406,"timestamp":"Mon May 20 2024 11:31:36 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":69.799,"status":404,"timestamp":"Mon May 20 2024 11:31:47 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2.48,"status":404,"timestamp":"Mon May 20 2024 11:31:47 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":152.13,"status":406,"timestamp":"Mon May 20 2024 11:31:47 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":25.898,"status":404,"timestamp":"Mon May 20 2024 11:32:20 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1.586,"status":404,"timestamp":"Mon May 20 2024 11:32:20 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":71.631,"status":406,"timestamp":"Mon May 20 2024 11:32:20 GMT+0100 (British Summer Time)","url":"/blogs"}
+{"level":"info","message":"User logged in successfully"}
+{"contentLength":"215","level":"info","message":"HTTP Access Log","method":"POST","responseTime":321.994,"status":200,"timestamp":"Mon May 20 2024 11:32:37 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"level":"warn","message":"Invalid credentials"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"POST","responseTime":8.511,"status":200,"timestamp":"Mon May 20 2024 11:33:27 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"level":"warn","message":"Invalid credentials"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"POST","responseTime":5.675,"status":200,"timestamp":"Mon May 20 2024 11:33:32 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"level":"warn","message":"Invalid credentials"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"POST","responseTime":4.862,"status":200,"timestamp":"Mon May 20 2024 11:33:33 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1.358,"status":429,"timestamp":"Mon May 20 2024 11:33:39 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"contentLength":"42","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1.513,"status":429,"timestamp":"Mon May 20 2024 11:33:48 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"level":"warn","message":"Invalid credentials"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"POST","responseTime":7.902,"status":200,"timestamp":"Mon May 20 2024 11:34:02 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"level":"warn","message":"Invalid credentials"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"POST","responseTime":7.875,"status":200,"timestamp":"Mon May 20 2024 11:34:07 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"level":"info","message":"User logged in successfully"}
+{"contentLength":"215","level":"info","message":"HTTP Access Log","method":"POST","responseTime":98.579,"status":200,"timestamp":"Mon May 20 2024 11:34:39 GMT+0100 (British Summer Time)","url":"/user/login"}
+{"_message":"User validation failed","errors":{"email":{"kind":"unique","message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidatorError","path":"email","properties":{"message":"Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","path":"email","type":"unique","value":"samopzcrr4@gmail.com"},"value":"samopzcrr4@gmail.com"}},"level":"error","message":"User validation failed: email: Error, expected `email` to be unique. Value: `samopzcrr4@gmail.com`","name":"ValidationError"}
+{"contentLength":"33","level":"info","message":"HTTP Access Log","method":"POST","responseTime":876.991,"status":500,"timestamp":"Mon May 20 2024 11:34:59 GMT+0100 (British Summer Time)","url":"/user/register"}
+{"level":"error"}
+{"date":"Mon May 20 2024 11:35:19 GMT+0100 (British Summer Time)","error":{"_message":"Blog validation failed","errors":{"title":{"kind":"unique","message":"Error, expected `title` to be unique. Value: `Hymns or Song That Beautifully Celebrate Jesus As Savior`","name":"ValidatorError","path":"title","properties":{"message":"Error, expected `title` to be unique. Value: `Hymns or Song That Beautifully Celebrate Jesus As Savior`","path":"title","type":"unique","value":"Hymns or Song That Beautifully Celebrate Jesus As Savior"},"value":"Hymns or Song That Beautifully Celebrate Jesus As Savior"}},"message":"Blog validation failed: title: Error, expected `title` to be unique. Value: `Hymns or Song That Beautifully Celebrate Jesus As Savior`","name":"ValidationError"},"exception":true,"level":"error","message":"uncaughtException: Blog validation failed: title: Error, expected `title` to be unique. Value: `Hymns or Song That Beautifully Celebrate Jesus As Savior`\nValidationError: Blog validation failed: title: Error, expected `title` to be unique. Value: `Hymns or Song That Beautifully Celebrate Jesus As Savior`\n    at Document.invalidate (C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n    at C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\document.js:3050:17\n    at C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","os":{"loadavg":[0,0,0],"uptime":64683.765},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\server.js","server.js"],"cwd":"C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18298498,"external":20857218,"heapTotal":26935296,"heapUsed":25605600,"rss":62500864},"pid":3684,"uid":null,"version":"v20.10.0"},"stack":"ValidationError: Blog validation failed: title: Error, expected `title` to be unique. Value: `Hymns or Song That Beautifully Celebrate Jesus As Savior`\n    at Document.invalidate (C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\document.js:3289:32)\n    at C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\document.js:3050:17\n    at C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":32,"file":"C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\document.js","function":"Document.invalidate","line":3289,"method":"invalidate","native":false},{"column":17,"file":"C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\document.js","function":null,"line":3050,"method":null,"native":false},{"column":9,"file":"C:\\Users\\HP PROBOOK 640 G2\\OneDrive\\Desktop\\second_semester_exam\\node_modules\\mongoose\\lib\\schemaType.js","function":null,"line":1388,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":77,"method":"processTicksAndRejections","native":false}]}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":1035.644,"status":404,"timestamp":"Tue May 21 2024 01:37:10 GMT+0100 (British Summer Time)","url":"/register"}
+{"level":"error","message":"Route not found"}
+{"contentLength":"29","level":"info","message":"HTTP Access Log","method":"POST","responseTime":2.301,"status":404,"timestamp":"Tue May 21 2024 01:37:10 GMT+0100 (British Summer Time)","url":"/login"}
+{"contentLength":"18","level":"info","message":"HTTP Access Log","method":"POST","responseTime":215.239,"status":406,"timestamp":"Tue May 21 2024 01:37:10 GMT+0100 (British Summer Time)","url":"/blogs"}

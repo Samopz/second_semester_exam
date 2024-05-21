@@ -9,8 +9,8 @@ import loginValidation from '../validations/login.validation.js'
 const router = express.Router();
 
 // Define API Endpoints for User sign up and sign in
-router.post('/register', userValidation, authMiddleware, register); // Protect the register route using the authMiddleware
-router.post('/login', loginValidation, authMiddleware, login); // Protect the login route using the authMiddleware
+router.post('/register', userValidation, register); // Not yet Protected with authMiddleware
+router.post('/login', loginValidation, login); // Not yet Protected with authMiddleware
 router.get('/profile', authMiddleware, getProfile); // Protect the profile route using the authMiddleware
 
 export default router;
