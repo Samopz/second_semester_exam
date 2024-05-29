@@ -29,6 +29,7 @@
     "mongoose-unique-validator": "^5.0.0",
     "morgan": "^1.10.0",
     "morgan-json": "^1.1.0",
+    "redis": "^4.6.14",
     "supertest": "^6.3.4",
     "winston": "^3.13.0"
   },

@@ -1,9 +1,11 @@
 import app from "./src/index.js";
 import { connect } from "./src/database/connection.js";
 import winston from "winston";
+import redis from "./src/integrations/redis.js";
 
 const MONGO_URL = process.env.MONGO_URL;
 const PORT = process.env.PORT;
+redis.connect();
 
 function connectWithRetry() {
     return connect(MONGO_URL, {
