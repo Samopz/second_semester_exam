@@ -1,6 +1,5 @@
 /node_modules
 .env
-integrations
 .logs
 .dockerignore
 compose.yaml
