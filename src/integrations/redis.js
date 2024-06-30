@@ -1,4 +1,5 @@
 import redis from 'redis';
+import colors from 'colors';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -11,7 +12,7 @@ const client = redis.createClient({
 });
 
 client.on('connect', () => {
-    console.log('Redis client connected to the Redis-Cloud server!');
+    console.log('Redis client connected to the Redis-Cloud server!'.bgMagenta);
 });
 
 export default client;
